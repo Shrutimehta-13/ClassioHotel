@@ -1,0 +1,76 @@
+<html>
+<head>
+	<title>
+		RESERVATION
+	</title>
+<link rel="stylesheet" href="hotelstyles.css" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="bodyimg">
+	<div class="container formstyle">
+		<div class="row text-white">
+			<div class="col-md-4 offset-md-4 form-div">
+				<form id="form-register">
+					<h1 class="text-center">RESERVATION</h1>
+					<div class="form-group">
+						<label for="username">PLEASE ENTER YOUR NAME</label>
+						<input type="text" name="username" class="form-control form-control-lg" placeholder="Enter Full Name" required="required">
+					</div>
+					<div class="form-group">
+						<label for="email"> PLEASE ENTER YOUR Email</label>
+						<input type="email" name="email" class="form-control form-control-lg" placeholder="Enter the Email" required="required">
+					</div>
+					<div class="form-group">
+						<label for="addr">PLEASE ENTER YOUR ADDRESS</label>
+						<input type="text" name="addr" class="form-control form-control-lg" placeholder="Enter the Address" required="required">
+					</div>
+					<div class="form-group">
+						<label for="room">NUMBER OF ROOMS TO BE BOOKED</label>
+						<input type="text" name="room" class="form-control form-control-lg" placeholder="Total Rooms to be Booked" required="required">
+					</div>
+					<div class="form-group">
+						<label for="checkin">PLEASE ENTER THE CHECK-IN DATE<label>
+						<input type="date" id="checkin" name="checkin" placeholder="Check-in date" required="required">
+					</div>
+					<div class="form-group">
+						<label for="checkout">PLEASE ENTER THE CHECK-OUT DATE<label>
+						<input type="date" id="checkout" name="checkout" placeholder="Check-out date" required="required">
+					</div>
+					<h4 class="text-white">PLEASE SELECT THE SUITE OF YOUR CHOICE</h4>
+					<div class="form-check">
+						<label class="form-check-label">
+						<input type="radio" class="form-check-input" name="optradio">1 ROOM & AC
+						</label>
+					</div>
+					<div class="form-check">
+						<label class="form-check-label">
+						<input type="radio" class="form-check-input" name="optradio">1 ROOM & NON-AC
+						</label>
+					</div>
+					<div class="form-check disabled">
+						<label class="form-check-label">
+						<input type="radio" class="form-check-input" name="optradio">2 ROOMS & AC
+						</label>
+					</div>
+					<div class="form-check disabled">
+						<label class="form-check-label">
+						<input type="radio" class="form-check-input" name="optradio">2 ROOMS & NON-AC
+						</label>
+					</div>
+					<div class="form-group">
+						<input type="submit" name="submit" form="form-register" value="CONFIRM BOOKING" class="btn btn-primary btn-block">
+					</div>
+					<a href="index.html"><h4 class="text-center text-white">HOME PAGE</h4></a>
+				</form>
+
+			</div>
+
+		</div>
+	</div>
+	
+</body>
